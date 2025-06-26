@@ -13,7 +13,7 @@ public class LoadScene : MonoBehaviour
     public void quitGame() // Renamed for clarity, but you can keep the old name if you want.
     {
         // Instead of quitting the application, load the "Main Menu" scene.
-        SceneManager.LoadScene("unity 1");
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void paused()
